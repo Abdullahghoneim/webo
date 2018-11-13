@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-connectus',
   templateUrl: './connectus.component.html',
   styleUrls: ['./connectus.component.css']
 })
-export class ConnectusComponent implements OnInit {
+export class ConnectusComponent {
 
+  name: String
+  email
+  phone
+  message : String
   constructor() { }
 
-  ngOnInit() {
+  onSubmit(formValue) {
+    console.log(formValue)
   }
 
 }

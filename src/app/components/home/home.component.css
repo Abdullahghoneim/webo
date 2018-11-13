@@ -1,0 +1,13 @@
+header {
+    height: 80vh;
+    width: 100%;
+
+}
+.main-header {
+    position: relative;
+    top: 22vh;
+}
+.img-header {
+    
+   max-height: 80vh;
+}
