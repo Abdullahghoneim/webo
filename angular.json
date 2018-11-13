@@ -24,7 +24,6 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
-              "node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css",
               "src/styles.css"
             ],
             "scripts": [
