@@ -1,13 +1,25 @@
 header {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 
 }
 .main-header {
     position: relative;
-    top: 22vh;
+    top: 40vh;
 }
 .img-header {
-    
-   max-height: 80vh;
+  max-height: 80vh;
+  max-width: 55vw;
+  position: relative;
+  top: 20vh;
+}
+
+@media  (max-width: 990px)  {
+  img{
+    display: none;
+  }
+}
+.p-header{
+  font-family: 'Ubuntu', sans-serif !important;
+
 }

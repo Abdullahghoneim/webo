@@ -2,19 +2,24 @@
     <header>
         <div class="row">
             <div class="col-lg-6">
-                <div class="main-header">
-                    <h1 class="mb-4"> We Are Desgine Things..
+                <div class="main-header" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.item'" >
+                    <h1 class="mb-4 item cd-headline clip "> We Are
+                                <span class="cd-words-wrapper">
+                   <b class="is-visible">Develop</b>
+                   <b>Design</b>
+                </span> <br> Things..
                     </h1>
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia tenetur
+                    <p class="text-muted item p-header">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia tenetur
                         obcaecati quam velit
                         praesentium atque doloremque tempore sit blanditiis in sapiente odio nulla voluptatibus, eum
                         quibusdam officia. Voluptates, quo quod.</p>
+                  <button class="btn btn-dark mt-3" routerLink="webdev" >Let's Get Started</button>
                 </div>
             </div>
-            <div class="col-lg-6  ">
-                <img class=" img-header " src="../../../assets/SVG/undraw_version_control_9bpv.svg" alt="Design illistration">
+            <div class="col-lg-6 ">
+                <img class=" img-header   " src="../../../assets/SVG/undraw_version_control_9bpv.svg" alt="Design illistration">
             </div>
         </div>
     </header>
-    
+
 </div>
