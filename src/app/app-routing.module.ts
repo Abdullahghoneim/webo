@@ -13,10 +13,10 @@ import {WebdevComponent} from './components/webdev/webdev.component';
 const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: '', redirectTo: '', pathMatch: 'full' },
-    { path: 'about', component: AboutusComponent },
-    {path: 'webdev', component: WebdevComponent},
-    { path: 'blog', component: BlogComponent },
-    { path: 'connectUs', component: ConnectusComponent },
+    { path: 'about', component: AboutusComponent , data: {state: 'about'} },
+    {path: 'webdev', component: WebdevComponent ,  data: {state: 'webdev'}  },
+    { path: 'blog', component: BlogComponent , data: {state: 'blog'}  },
+    { path: 'connectUs', component: ConnectusComponent , data: {state: 'connectUs'}  },
     { path: '**', component: PageNotFound404Component },
 ];
 

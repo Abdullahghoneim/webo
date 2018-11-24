@@ -4,8 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { FlashMessagesModule } from 'angular2-flash-messages';
 import { HttpClientModule } from '@angular/common/http';
 import {NgsRevealModule} from 'ngx-scrollreveal';
-import { NgxSpinnerModule } from 'ngx-spinner';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -34,7 +33,7 @@ import { WebdevComponent } from './components/webdev/webdev.component';
     FlashMessagesModule.forRoot(),
     HttpClientModule,
     NgsRevealModule,
-    NgxSpinnerModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
