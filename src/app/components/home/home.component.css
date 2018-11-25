@@ -1,11 +1,10 @@
 header {
-    height: 90vh;
-    width: 100%;
-
+  height: 90vh;
+  width: 100%;
 }
 .main-header {
-    position: relative;
-    top: 40vh;
+  position: relative;
+  top: 40vh;
 }
 .img-header {
   max-height: 80vh;
@@ -14,12 +13,20 @@ header {
   top: 20vh;
 }
 
-@media  (max-width: 990px)  {
-  img{
+@media (max-width: 990px) {
+  img {
     display: none;
   }
 }
-.p-header{
-  font-family: 'Ubuntu', sans-serif !important;
+.p-header {
+  font-family: "Ubuntu", sans-serif !important;
+}
+.quote {
+  margin-top: 130px;
+  text-align: center;
+  height: 100%;
+}
 
+.quote:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
