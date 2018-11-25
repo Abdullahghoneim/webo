@@ -14,6 +14,7 @@ import { ConnectusComponent } from './components/connectus/connectus.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFound404Component } from './components/page-not-found404/page-not-found404.component';
 import { WebdevComponent } from './components/webdev/webdev.component';
+import { BlogDetilsComponent } from './components/blog-detils/blog-detils.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { WebdevComponent } from './components/webdev/webdev.component';
     HomeComponent,
     PageNotFound404Component,
     WebdevComponent,
+    BlogDetilsComponent,
   ],
   imports: [
     BrowserModule,
