@@ -1,4 +1,10 @@
-.web-dev{
+.web-dev {
   margin-top: 135px;
-
+}
+.card img {
+  transition: all ease-in-out 0.2s;
+  transform: scale(1.1);
+}
+.card img:hover {
+  transform: scale(1.2);
 }
