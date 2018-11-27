@@ -13,7 +13,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.quoteService.getQuote().subscribe(data => {
       this.quote = data;
-      console.log(this.quote);
     });
   }
 }

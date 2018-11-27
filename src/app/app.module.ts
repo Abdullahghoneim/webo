@@ -16,7 +16,8 @@ import { HomeComponent } from "./components/home/home.component";
 import { PageNotFound404Component } from "./components/page-not-found404/page-not-found404.component";
 import { WebdevComponent } from "./components/webdev/webdev.component";
 import { BlogDetilsComponent } from "./components/blog-detils/blog-detils.component";
-
+import { QouteService } from "./service/qoute.service";
+import { OurWorkServiceService } from "./service/our-work-service.service";
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +39,7 @@ import { BlogDetilsComponent } from "./components/blog-detils/blog-detils.compon
     NgsRevealModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [QouteService, OurWorkServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

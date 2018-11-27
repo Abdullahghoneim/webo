@@ -1,25 +1,20 @@
-
-
-nav ul li .nav-link  {
-    font-weight: bold;
-    margin: 0 20px;
-
+nav ul li .nav-link {
+  /* font-weight: bold; */
+  margin: 0 15px;
 }
-.navbar-brand
-{
-  font-family: 'Pacifico', cursive !important;
-  font-size: 1.5rem;
-
+.navbar-brand {
+  font-family: "Pacifico", cursive !important;
+  font-size: 1.4rem;
 }
 .navbar-nav {
-    margin-left: 109px;
-
+  margin-left: 90px;
 }
-.navbar-nav li a i  {
-    margin : 0 0.5rem;
-    color: black;
+.navbar-nav li a i {
+  margin: 0 0.5rem;
+  color: black;
 }
-nav{
+nav {
+  max-height: 83px;
   background-color: #fff;
   -webkit-box-shadow: 0 8px 5px -8px #999;
   -moz-box-shadow: 0 8px 5px -8px #999;
