@@ -10,12 +10,10 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { AboutusComponent } from "./components/aboutus/aboutus.component";
-import { BlogComponent } from "./components/blog/blog.component";
 import { ConnectusComponent } from "./components/connectus/connectus.component";
 import { HomeComponent } from "./components/home/home.component";
 import { PageNotFound404Component } from "./components/page-not-found404/page-not-found404.component";
 import { WebdevComponent } from "./components/webdev/webdev.component";
-import { BlogDetilsComponent } from "./components/blog-detils/blog-detils.component";
 import { QouteService } from "./service/qoute.service";
 import { OurWorkServiceService } from "./service/our-work-service.service";
 @NgModule({
@@ -23,12 +21,10 @@ import { OurWorkServiceService } from "./service/our-work-service.service";
     AppComponent,
     NavbarComponent,
     AboutusComponent,
-    BlogComponent,
     ConnectusComponent,
     HomeComponent,
     PageNotFound404Component,
-    WebdevComponent,
-    BlogDetilsComponent
+    WebdevComponent
   ],
   imports: [
     BrowserModule,
