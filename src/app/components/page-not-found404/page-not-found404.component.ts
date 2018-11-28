@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 @Component({
-  selector: 'app-page-not-found404',
-  templateUrl: './page-not-found404.component.html',
-  styleUrls: ['./page-not-found404.component.css']
+  selector: "app-page-not-found404",
+  templateUrl: "./page-not-found404.component.html",
+  styleUrls: ["./page-not-found404.component.css"]
 })
 export class PageNotFound404Component implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor() { }
-
-  ngOnInit() {
+  ngOnInit() {}
+  backToWebsite() {
+    this.router.navigate(["/"]);
   }
-
 }

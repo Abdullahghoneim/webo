@@ -1,0 +1,32 @@
+.about-us {
+  padding: 0  70px;
+}
+
+
+.contact{
+  margin-top: 122px;
+  padding: 20px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0px #bababa;
+}
+.contact h1 {
+  padding: 2rem;
+  margin: 0 20px ;
+}
+.contact  .info {
+  padding: 40px;
+  font-size: 1.2rem;
+  font-family: monospace, monospace;
+}
+.contact .founder-img {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 5px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.leaders {
+  text-align: center;
+}
