@@ -16,6 +16,8 @@ import { PageNotFound404Component } from "./components/page-not-found404/page-no
 import { WebdevComponent } from "./components/webdev/webdev.component";
 import { QouteService } from "./service/qoute.service";
 import { OurWorkServiceService } from "./service/our-work-service.service";
+import { OurProjectsComponent } from './components/our-projects/our-projects.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { OurWorkServiceService } from "./service/our-work-service.service";
     ConnectusComponent,
     HomeComponent,
     PageNotFound404Component,
-    WebdevComponent
+    WebdevComponent,
+    OurProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

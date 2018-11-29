@@ -28,9 +28,8 @@ header {
 .quote {
   margin-top: 130px;
   text-align: center;
-  height: 25rem;
 }
 
 .quote:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
 }
